@@ -1,0 +1,7 @@
+#Escreva um algoritmo para ler um valor e escrever se é positivo ou negativo. Considere o valor zero
+#como positivo
+value = float(input("Enter a number:"))
+if value >= 0:
+    print("The number is positive.")
+else: 
+    print(" The number is negative.")
